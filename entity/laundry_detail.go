@@ -5,9 +5,9 @@ import "time"
 type LaundryDetail struct {
 	Id            uint
 	LaundryId     uint
-	Laundry       Laundry
+	Laundry       *Laundry
 	LaundryItemId uint
-	LaundryItem   LaundryItem
+	LaundryItem   *LaundryItem
 	Status        string
 	CreatedAt     time.Time
 	UpdatedAt     time.Time

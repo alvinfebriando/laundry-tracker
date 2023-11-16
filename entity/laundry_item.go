@@ -5,7 +5,7 @@ import "time"
 type LaundryItem struct {
 	Id          uint
 	UserId      uint
-	User        User
+	User        *User
 	Slug        string
 	Photo       string
 	Description string
